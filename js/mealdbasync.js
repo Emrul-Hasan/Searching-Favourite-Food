@@ -4,7 +4,7 @@ const searchFood = async () => {
     // console.log(searchText);
     searchField.value = '';
     if (searchText == '') {
-        console.log("jhhjgj");
+       
     }
 
     else {
@@ -32,7 +32,7 @@ const displaySearchResult = meals => {
     // searchResult.innerHTML = '';
     searchResult.textContent = '';
     if (meals.length == 0) {
-        // console.log('Emon');
+        
     }
 
     meals.forEach(meal => {
